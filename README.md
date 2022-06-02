@@ -133,6 +133,25 @@ If you find this project useful in your research, please consider cite:
 }
 ```
 
+## Running via docker-compose
+
+Copy the repository to your computer, go to the directory with it and run the command
+
+```sh
+git clone --recurse-submodules https://github.com/sergeyk321/Neuroset2.git
+cd Website_CV
+docker-compose up
+```
+
+To stop the server, in the same directory we call 
+```sh
+docker-compose stop
+```
+To restart the container, you need to run the command
+```sh
+docker-compose start
+```
+
 ## Contact 
 
 For Yolov5 DeepSort OSNet bugs and feature requests please visit [GitHub Issues](https://github.com/mikel-brostrom/Yolov5_DeepSort_OSNet/issues). For business inquiries or professional support requests please send an email to: yolov5.deepsort.pytorch@gmail.com
